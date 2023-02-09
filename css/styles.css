@@ -1,0 +1,64 @@
+
+#title{
+    background-color: #ff4c68;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+
+.navbar .navbar-brand{
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar .collapse{
+    margin-left: 500px;
+}
+
+.navbar .collapse .navbar-nav .nav-item a{
+    color: rgba(196, 192, 192,0.7);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-right: 50px;
+    font-size: 1.3rem;
+}
+
+#title .row .col-lg-6{
+    margin-top: 80px;
+}
+#title .row .col-lg-6 h1{
+    font-weight: 1000;
+    color: white;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    margin-bottom: 45px;
+}
+
+#title .row .col-lg-6 img{
+    transform: rotate(25deg);
+    width: 60%;
+    margin-left: 50px;
+}
+
+#title .row .col-lg-6 button{
+    padding: 8px 20px;
+    margin-left: 10px;
+}
+
