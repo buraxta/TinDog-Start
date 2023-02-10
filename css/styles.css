@@ -1,7 +1,12 @@
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 #title{
     background-color: #ff4c68;
-}
+    color: #fff;
+ }
 
 .container-fluid{
     padding: 3% 15%;
@@ -14,17 +19,16 @@ h1{
     font-weight: 900;
 }
 
-.navbar{
-    display: flex;
-    justify-content: center !important;
-    align-items: center !important;
+p{
+    color: #8f8f8f;
 }
+
 
 
 .navbar .navbar-brand{
     color: white;
-    font-size: 3rem;
-    font-weight: 500;
+    font-size: 2.5rem;
+    font-weight: bold;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -34,10 +38,10 @@ h1{
 
 .navbar .collapse .navbar-nav .nav-item a{
     color: rgba(196, 192, 192,0.7);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-Light', sans-serif;
     font-weight: 400;
     margin-right: 50px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 #title .row .col-lg-6{
@@ -58,7 +62,39 @@ h1{
 }
 
 #title .row .col-lg-6 button{
-    padding: 8px 20px;
-    margin-left: 10px;
+    margin: 5% 3% 5% 0;
+}
+
+/* features */
+
+#features{
+    padding: 10% 10%;
+}
+#features .row .col-lg-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#features h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: block;
+}
+
+#features p{
+    width: 70%;
+    color: #8f8f8f;
+    text-align: center;
+}
+
+#features i{
+    color: #ef8172;
+}
+
+#features i:hover{
+    color: #ff4c68;
 }
 
